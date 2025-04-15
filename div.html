@@ -16,11 +16,19 @@
             color: chocolate;
         }
 
+        h2 {
+            color: forestgreen;
+        }
+
         .box1 {
             border: 5px solid green;
-            height: 110vh;
+            height: 80vh;
             width: 80vh;
             background-color: aliceblue;
+            position: fixed;
+            top: 20;
+            right: 0;
+            bottom: 0;
 
         }
 
@@ -34,6 +42,7 @@
             padding-right: 24vh;
             background-color: aquamarine;
         }
+        
 
         td {
             margin-left: 2vh;
@@ -43,22 +52,23 @@
             color: brown;
         }
 
+        /*Child selecor*/
         div>p {
             color: blueviolet;
 
         }
 
+        /* Adjust sibling selector*/
         div+p {
             color: chartreuse;
         }
 
-        div ~ p {
-             color:deeppink;
+        /*General sibling selector*/
+        div~p {
+            color: deeppink;
         }
 
-        #p2 {
-            color: blueviolet
-        }
+
 
         #p3 {
             color: cadetblue;
@@ -70,7 +80,13 @@
     <div class="model">
         <h1>Dora the Explorer</h1>
     </div><br><br>
-
+    <p>
+        Directed by A.R. Murugadoss, the action-packed film features a star-studded cast, including Kajal
+    </p>
+    <p>Aggarwal, Suniel Shetty, Sathyaraj, Prateik Babbar, and Sharman Joshi. The story follows Salman’s</p>
+    <h2>Aggarwal, Suniel Shetty, Sathyaraj, Prateik Babbar, and Sharman Joshi.</h2>
+    <p>character, Sikandar, on a relentless mission to seek justice and protect the three individuals who
+        received organ donations from his late wife.</p>
     <div class="box1"><br>
         <div class="box2">
             <h1>Sikandar Box Office Collection Day 8:
@@ -81,14 +97,6 @@
             fest has officially crossed Rs 100 crore in India, and fans are loving it. After a thunderous opening
             weekend,
             the film has managed to keep the momentum going strong through the week.</p>
-
-        <p>Salman made his big Eid comeback after two years with Sikandar, but it’s been a bit of a bumpy ride. Released
-            on
-            March 30, the film opened to a mixed response from both fans and critics. That said, Sikandar is still
-            packing a
-            punch at the box office. According to the latest update from Sacnilk.com, the film has finally crossed the
-            Rs
-            100 crore mark in India on day 8.</p>
 
         <p id="p3">According to the latest numbers, Sikandar added Rs 4.25 crore to its kitty on day 8, pushing its
             total India net
@@ -102,26 +110,20 @@
             <tr class="tab1">
                 <td>
                     <image
-                        src="https://th.bing.com/th/id/OIP.eh5RRJ5l1pqHQDN1ubb1VAHaEx?w=299&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                        src="https://th.bing.com/th/id/OIP.eh5RRJ5l1pqHQDN1ubb1VAHaEx?w=299&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        height="150vh" width="200vh">
                     </image>
                 </td>
                 <td>
                     <p>Directed by A.R. Murugadoss, the action-packed film features a star-studded cast, including Kajal
                         Aggarwal, Suniel Shetty, Sathyaraj, Prateik Babbar, and Sharman Joshi. The story follows
-                        Salman’s
-                        character, Sikandar, on a relentless mission to seek justice and protect the three individuals
-                        who
-                        received organ donations from his late wife.</p>
+                        Salman’s</p>
                 </td>
             </tr>
         </table>
     </div>
-    <p>
-        Directed by A.R. Murugadoss, the action-packed film features a star-studded cast, including Kajal
-    </p>
-    <p>Aggarwal, Suniel Shetty, Sathyaraj, Prateik Babbar, and Sharman Joshi. The story follows Salman’s</p>
-    <p>character, Sikandar, on a relentless mission to seek justice and protect the three individuals who
-        received organ donations from his late wife.</p>
+    
+
 </body>
 
 </html>

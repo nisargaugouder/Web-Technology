@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .navbar {
+      background-color: #e0e0e0;
+      padding: 15px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .left, .right {
+      border: 1px solid #000;
+      padding: 20px;
+      width: 40%;
+    }
+    .form-group {
+      margin: 10px 0;
+      text-align: left;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 5px;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    .footer {
+      background-color: #f1f1f1;
+      padding: 15px;
+      margin-top: 20px;
+      border-top: 1px solid #000;
+    }
+    img {
+      width: 100px;
+      height: auto;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">Horizontal Navigation bar</div>
+
+  <div class="container">
+    <div class="left">
+      <h2>Heading at center</h2>
+      <p>Paragraph at center</p>
+      <img src="https://cdn.pixabay.com/photo/2013/12/12/03/09/kitten-227011_1280.jpg" alt="Added image">
+    </div>
+
+    <div class="right">
+      <h3>Form</h3>
+      <div class="form-group">
+        <label>Enter Name</label>
+        <input type="text" name="name">
+      </div>
+      <div class="form-group">
+        <label>Enter Email</label>
+        <input type="email" name="email">
+      </div>
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Footer</p>
+    <p>Internship copyright<br>evnHub 2025</p>
+  </div>
+
+</body>
+</html>

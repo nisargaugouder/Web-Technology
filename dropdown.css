@@ -1,0 +1,70 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: rgb(74, 134, 154);
+    left: 0vh;
+    padding: 10px 14px;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+    background-color: crimson;
+    display: block;
+    color:rgb(183, 206, 226);
+    font-size: 5vh;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul li a {
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+/*decident selector*/
+ul li {
+    display: inline;
+}
+
+li:hover {
+    background-color: darkcyan;
+}
+
+#cat1 {
+    height: 35vh;
+    width: 50vh;
+    margin-right: 20px;
+    opacity: 0.2;
+}
+
+#cat2 {
+    height: 35vh;
+    width: 50vh;
+    margin-right: 20px;
+    opacity: 0.4;
+}
+
+#cat3 {
+    height: 35vh;
+    width: 50vh;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+
+#cat4 {
+    height: 35vh;
+    width: 50vh;
+    margin-right: 20px;
+    opacity: 0.8;
+
+    
+    border-radius: 50%;
+}
