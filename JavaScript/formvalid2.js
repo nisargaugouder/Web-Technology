@@ -33,5 +33,5 @@ function submitForm() {
     document.getElementById(id).innerHTML=message;
  }
  function clearForm(){
-    document.getElementById('nameErrorId').innerHTML='form cleared';
+    document.getElementById('nameErrorId').innerHTML='';
  }
