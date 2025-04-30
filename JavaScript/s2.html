@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Dates</h1>
+    <h2>Using new Date()</h2>
+    <p>Create a new date obj with the current date and time</p>
+    <p id="demo"></p>
+    <script>
+        const d=new Date();
+        console.log(d.getFullYear("demo"));
+        console.log(d.getHours("demo"));
+        console.log(d.getTimezoneOffset("demo"));
+        console.log(d.getMonth("demo"));
+        console.log(d.getSeconds("demo"));
+        
+        
+        let assign = document.getElementById("demo").innerHTML=d;
+
+    </script>
+
+</body>
+</html>

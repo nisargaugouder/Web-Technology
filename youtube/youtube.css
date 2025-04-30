@@ -1,0 +1,75 @@
+header{
+    background-color:aliceblue;
+    display: flex;
+    padding-top: 1vh;
+}
+#yid{
+    padding: 1vh;
+    height: 8vh;
+    width: 30vh;
+}
+#SearchBar{
+    width: 100vh; 
+    height: 7vh;
+    padding: 3vh;
+    margin-top: 0;
+}
+section{
+    width: 130vh;
+    
+}
+section iframe{
+    padding-left: 8vh;
+    padding-top: 2vh;
+    border-radius: 3%;
+}
+section div{
+    margin: 0;
+    padding-left: 8vh;
+}
+#title{
+    left: 0;
+    margin-left: 0vh;
+}
+#like{
+    height: 5vh;
+    width: 5vh;
+}
+#dislike{
+    height: 5vh;
+    width: 5vh;
+}
+#share{
+    height: 5vh;
+    width: 10vh;
+}
+#download{
+    height: 5vh;
+    width: 15vh;
+}
+#views{
+    padding-left: 3vh;
+   padding-right: 45vh;
+}
+.recommended {
+    width: 90%;
+    background: #fff;
+  }
+.main{
+    display: flex;
+    align-items: flex-start;
+}
+.video-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+  
+  .video-text {
+    max-width: 300px;
+    font-size: 16.5px;
+    line-height: 1.5;
+  }
+  
+

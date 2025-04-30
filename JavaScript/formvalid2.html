@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<script src="formvalid2.js"></script>
+
+<body>
+    <form name="registration" onsubmit="return submitForm()">
+
+        <div>
+            <span class="nameErrorClass">hii</span>
+            <span class="nameErrorClass">hw are y</span>
+        </div>
+        <div>
+            <button onclick="onClick()">click Me </button>
+
+            <label for="nameId">Name</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="nameId" name="nameName" required>
+            <span id="nameErrorId"></span>
+        </div>
+        <br>
+        <div>
+            <label for="phoneId">Phone</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="tel" id="phoneId" name="phoneName">
+            <span id="numberErrorId"></span>
+        </div>
+        <br>
+        <div>
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Clear">Clear</button>
+        </div>
+    </form>
+</body>
+
+</html>
